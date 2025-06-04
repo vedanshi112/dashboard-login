@@ -1,0 +1,35 @@
+
+{
+    "info":[
+        {
+            "id":1,
+            "name":"Foram Thummar",
+            "email":"foram14@gmail.com",
+            "password":"1406"
+        },
+        {
+            "id":2,
+            "name":"Vedanshi Viradiya",
+            "email":"vdnc13@gmail.com",
+            "password":"1102"
+        },
+        {
+           "id":3,
+           "name":"Rushita Gondaliya",
+           "email":"rushita04@gmail.com",
+           "password":"0406"
+        },
+        {
+            "id":4,
+            "name":"Riddhi ",
+            "email":"rkachhadiya@gmail.com",
+            "password":"0011"
+        },
+        {
+            "id":5,
+            "name":"Khushbu",
+            "email":"khushbu@gmail.com",
+            "password":"0000"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+
+.growing{
+    display: flex;
+    justify-content: space-between;
+}
+
+.download{
+    border: 1px solid #475f7b;
+    color: #475f7b;
+    width: 200px;
+    font-size: small;
+    font-weight: lighter;
+    height: 30px;
+    background-color: white;
+    border-radius: 20px;
+    &:hover{
+        color: white;
+        background-color: #475f7b;
+        cursor: pointer;
+    }
+}
+
+.dropdownbutton{
+    display: flex;
+    gap: 20px;
+}
+
+.grow{
+    color: #475f7b;
+    margin-top: -1px;
+    
+}

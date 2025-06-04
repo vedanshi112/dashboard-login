@@ -1,0 +1,62 @@
+.loginform {
+    border: 1px solid rgb(53, 1, 87);
+    width: 500px;
+    background-color: rgb(53, 1, 87);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 25px;
+    margin-top: 100px;
+    margin-left: 400px;
+    /* padding-left: 20px; */
+}
+
+.loginform label {
+    font-family: Helvetica;
+    color: white;
+    font-weight: bold;
+    padding-left: 45px;
+    letter-spacing: 2px;
+
+}
+
+.loginform input {
+    border: 1px solid white;
+    width: 350px;
+    padding: 9px;
+    margin-left: 65px;
+    margin-top: 15px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.loginform button {
+    border: 1px solid whitesmoke;
+    width: 100px;
+    font-size: large;
+
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    padding: 5px;
+    margin-left: 190px;
+    margin-top: 35px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+
+    &:hover {
+        cursor: pointer;
+
+        background-color: rgb(58, 1, 86);
+        border: 1px solid rgb(58, 1, 86);
+    }
+
+}
+
+.log {
+    text-decoration: none;
+    color: rgb(85, 74, 89);
+
+    &:hover {
+        color: white;
+    }
+}

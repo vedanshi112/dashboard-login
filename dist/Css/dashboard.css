@@ -1,0 +1,28 @@
+
+
+.purchase{
+    color: #1f80ff;
+
+}
+
+.slash{
+    color: rgb(161, 160, 160);
+}
+
+.multiplethemes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.multi{
+    color: #7792b1;
+    &:hover{
+        cursor: pointer;
+        color: #5f9ff2;
+    }
+}
+
+.themes{
+    color: #475f8b;
+}

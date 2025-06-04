@@ -1,0 +1,15 @@
+
+.more{
+    display: flex;
+    justify-content: space-between;
+}
+
+.analy{
+    font-family: Helvetica;
+    color: #475f7b;
+    margin-top: -2px;
+    &:hover{
+        cursor: pointer;
+        
+    }
+}

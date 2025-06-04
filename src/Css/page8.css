@@ -1,0 +1,46 @@
+
+.actbtn{
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 15px;
+}
+
+.daybtn{
+    border: 1px solid #6993ff;
+    color: #6993ff;
+    background-color: white;
+    width: 70px;
+    height: 20px;
+    border-radius: 20px;
+    /* font-weight: bold; */
+    &:hover{
+        cursor: pointer;
+        color: white;
+        background-color: #6993ff;
+    }
+}
+
+.hourbtn{
+     border: 1px solid #6993ff;
+    color: white;
+    background-color:#6993ff ;
+    width: 70px;
+    height: 20px;
+
+    border-radius: 20px;
+    /* font-weight: bold; */
+    &:hover{
+        cursor: pointer;
+        color: #6993ff;
+        background-color: white;
+    }
+}
+
+.active{
+     color: #475f7b;
+     margin-top: -1px;
+     &:hover{
+        cursor: pointer;
+     }
+}
+

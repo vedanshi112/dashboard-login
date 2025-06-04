@@ -1,0 +1,56 @@
+
+.follow2{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+}
+
+.total{
+    color: #ffffff;
+    /* margin-top: -10px; */
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.follow1{
+     border: 1px solid #fff4de;
+    background-color: #fff4de;
+    height: 50px;
+    width: 40px;
+    /* padding: 5px 5px 5px 5px; */
+    padding-top: 10px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.follow{
+    color: #ffa800;
+}
+
+.million4{
+    color: #ffffff;
+    text-align: end;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -0.11px;
+}
+
+.vs4{
+     font-size: 11px;
+    text-align: end;
+    margin-top: -14px;
+    color: #ffffff;
+
+
+}
+
+.percentage4{
+    color: #1bc5bd;
+}
+
+.arrow4{
+     color: #1bc5bd;
+    font-size: smaller;
+    margin-bottom: -10px;
+}

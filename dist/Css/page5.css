@@ -1,0 +1,32 @@
+
+.overview{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    border: 1px solid #475f7b;
+    color: #475f7b;
+    font-family: Helvetica;
+    width: 100px;
+    font-size: medium;
+    background-color: white;
+    font-weight: bold;
+    height: 30px;
+    /* padding-top: 5px; */
+    /* padding-bottom: 5px; */
+    border-radius: 20px;
+    &:hover{
+        color: white;
+        background-color: #475f7b;
+        cursor: pointer;
+    }
+}
+
+.over{
+    color: #475f7b;
+    margin-top: -1px;
+    &:hover{
+        cursor: pointer;
+    }
+}

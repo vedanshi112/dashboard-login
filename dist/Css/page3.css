@@ -1,0 +1,67 @@
+/* .visit {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+} */
+
+.border1{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    margin-top: -20px;
+}
+
+.visit1 {
+    color: #475f7b;
+    font-family: Helvetica;
+
+    &:hover {
+        cursor: pointer;
+
+    }
+}
+
+.visitors {
+
+   
+     border: 1px solid #c9f7f5;
+    height: 50px;
+    width: 40px;
+    
+        padding-top: 10px;
+    border-radius: 2px;
+    background-color: #c9f7f5;
+    margin-top: 16px;
+}
+
+
+.Visitors1 {
+    color: #1bc5bd;
+}
+
+
+.million1 {
+    color: #475f7b;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: end;
+    margin-top: -0.15px;
+}
+
+.vs1 {
+    font-size: 11px;
+    text-align: end;
+    margin-top: -14px;
+    color: #475f7b;
+}
+
+.percentage1 {
+    color: #1bc5bd;
+
+}
+
+.arrow1 {
+    color: #1bc5bd;
+    font-size: smaller;
+    margin-bottom: -10px;
+}

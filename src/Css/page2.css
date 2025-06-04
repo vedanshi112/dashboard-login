@@ -1,0 +1,60 @@
+
+
+.border{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    margin-top: -20px;
+}
+
+.chat{
+     font-family: Helvetica;
+    color: #475f7b;
+    padding-top: 8px;
+    &:hover{
+        cursor: pointer;
+        
+    }
+}
+
+.chatout{
+    color: #f64e60;
+    
+}
+
+.chatout1{
+        border: 1px solid #ffe2e5;
+    height: 50px;
+    width: 40px;
+    
+        padding-top: 10px;
+    border-radius: 2px;
+    background-color: #ffe2e5;
+    margin-top: 16px;
+}
+
+.million{
+    color: #475f7b;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: end;
+    /* margin-top: -1px; */
+}
+
+.vs{
+    font-size: 11px;
+    text-align: end;
+    margin-top: -14px;
+    color: #475f7b;
+}
+
+.percentage{
+    color: #f64e60;
+
+}
+
+.arrow{
+    color: #f64e60;
+    font-size: smaller;
+    margin-bottom: -10px;
+}

@@ -1,0 +1,28 @@
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.notification{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.medias{
+    display: flex;
+    gap: 20px;
+}
+
+.timeline{
+   font-size: 22px;
+    color: #717c99;
+    &:hover{
+        cursor: pointer;
+        color: #b794fd;
+    }
+}
