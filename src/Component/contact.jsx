@@ -126,6 +126,7 @@ const ContactPage = () => {
     const [inputFocus, setInputFocus] = useState({});
     const [formData, setFormData] = useState({
         name: "",
+        phoneNumber: "",
         email: "",
         message: "",
     });
@@ -171,6 +172,7 @@ const ContactPage = () => {
                 TEMPLATE_ID,
                 {
                     from_name: formData.name,
+                    from_phone: formData.phoneNumber,
                     from_email: formData.email,
                     message: formData.message,
                 },
@@ -180,7 +182,7 @@ const ContactPage = () => {
                 (response) => {
                     setSending(false);
                     setFeedbackMsg("Message sent successfully! Thank you.");
-                    setFormData({ name: "", email: "", message: "" });
+                    setFormData({ name: "", phoneNumber: "", email: "", message: "" });
                 },
                 (error) => {
                     setSending(false);
@@ -227,6 +229,24 @@ const ContactPage = () => {
                                 required
                                 autoComplete="off"
                             />
+
+                                <input
+                                type="tel"
+                                name="phone number"
+                                placeholder="Phone Number"
+                                style={{
+                                    ...styles.input,
+                                    ...(inputFocus.phoneNumber ? styles.inputFocus : {}),
+                                }}
+                                onFocus={() => handleFocus("phone number")}
+                                onBlur={() => handleBlur("phone number")}
+                                value={formData.name}
+                                onChange={handleChange}
+                                disabled={sending}
+                                required
+                                autoComplete="off"
+                            />
+
                             <input
                                 type="email"
                                 name="email"
